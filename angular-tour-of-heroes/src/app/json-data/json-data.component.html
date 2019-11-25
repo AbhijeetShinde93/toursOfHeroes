@@ -1,0 +1,21 @@
+<h2>Basic Request</h2>
+
+
+<div class="table-responsive">
+    <table class="table" *ngIf="demoData">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Id</th>
+                <th>Path</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let demo of demoData">
+                <td>{{demo.name}}</td>
+                <td>{{demo.id}}</td>
+                <td>{{demo.path}}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>

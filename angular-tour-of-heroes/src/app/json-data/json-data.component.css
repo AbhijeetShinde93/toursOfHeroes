@@ -1,0 +1,10 @@
+table, th, td 
+{
+    margin: 10px 0;
+    border: solid 1px #333;
+    font: 15px Verdana;
+}
+th {
+    font-weight:bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
